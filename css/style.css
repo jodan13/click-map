@@ -1,0 +1,82 @@
+.vert-line:before { 
+    content: " ";
+    background: #FF6109;
+    width: 1px;
+    height: 46px;
+    float: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: -2px;
+    }
+.vert-line::after { 
+    content: " ";
+    background: #FF6109;
+    width: 1px;
+    height: 46px;
+    float: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: -2px;
+    }
+.vert-line_nav:before { 
+    content: " ";
+    background: #FF6109;
+    width: 1px;
+    height: 13px;
+    float: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    }
+.navbar {
+    position: relative;
+    padding-bottom: 0px;
+}
+.navbar-toggler{
+    padding-bottom: 0px;
+}
+.navbar-brand {
+    top: 16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+.see_more {
+    color: #FF6109;
+}
+.hor_line:before,
+.hor_line:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+}
+h5 {
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+}
+h5:before, h5:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+    color: #FF6109;
+}
+h5:after {
+    margin: 0 -55% 0 .5em;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+ 
